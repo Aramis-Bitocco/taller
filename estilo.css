@@ -1,0 +1,45 @@
+body{
+	background-color:   cyan;    
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+	background-color: white;
+	border-radius: 10px;
+	width: 250px;
+	margin: 10px;
+	text-align: center;
+}
+img{
+	border-radius: 500px;
+	transition: 2s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+header{
+	background-color: blue;
+	color: white;
+	text-align: center;    
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+}
+li{
+	list-style: none;
+}
+button{
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+}
+input{
+	height: 50px;
+	display: none;
+}
+#btnsend{
+	display: none;
+}
